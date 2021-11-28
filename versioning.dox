@@ -1,0 +1,47 @@
+/** @page PAGE_Versioning Versioning
+
+	@tableofcontents
+
+    Version numbers are composed as follows:
+
+	<b>major version number</b>
+
+    usually indicates extremely significant changes to the program - for example if the program has been completely
+	rewritten (for example 2.x after version 1.x) or if interface compatibility cannot be maintained in libraries.
+
+	<b>minor version number</b>
+
+	mostly refers to the new functional or extensions of the program.
+
+	<b>revision number</b>
+
+    (or patch level) usually contains bug fixes or compatible extensions.
+
+    <b>build number</b>
+
+    usually indicates the progress of the development work in single steps, so it is increased by one for example
+	starting at 1 with each compilation of the code. Version 5.0.0.3242 would stand for the 3242nd compilation
+	product of a software. If version control systems are used, a number is often used instead of the build number
+	that uniquely identifies the sources for the compilation within the version control system. This makes it
+	easier to find the corresponding sources in case of errors.
+
+	@verbatim
+	2.3.5.41
+	| | | |
+	| | | +----- major version number
+	| | +------- minor version number
+	| +--------- revision number
+	+----------- build number
+	@endverbatim
+
+	Each of these version numbers can also consist of several digits. For example, after version 0.9, if only the
+	minor version increases, 0.10 follows and not 1.0. If the main or secondary version number is increased, the
+	following digits are reset to 0. Version 2.3.5 is followed by version 2.4.0 or 3.0.0, depending on the degree
+	of change.
+
+	In principle, however, there are no fixed specifications for the meaning of the individual values; rather,
+	quasi-standards have established themselves: Under .NET, for example, one follows the different scheme
+	&lt;main version number&gt;.&lt;secondary version number&gt;.&lt;build number&gt;.&lt;revision number&gt;
+	(compared to the example above, the position for revision number and build number is reversed).
+
+*/

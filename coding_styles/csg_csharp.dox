@@ -1,0 +1,110 @@
+/**
+
+@page PAGE_CSG_CSharp Coding styles for C#
+
+@section SEC_CSG_Formatting Source file formatting
+
+@subsection SEC_CSG_FileStructure File structure
+
+@code{.cs}
+/** @file
+
+	@copyright  @ref LIBRARY_PROJECT_LGPL_2_1,
+                @n GNU Lesser General Public License
+	
+	@author	    Goetz Olbrischewski (goetz.olbrischewski@googlemail.com)
+	@author     ................
+	
+	@date
+	
+	@defgroup REF_Library_Foo Library.Foo @{
+		@brief
+	
+		@details
+		
+		@ingroup REF_Libraries
+	@}
+*/
+
+// using order is system, external, internal
+using System;
+
+namespace Library
+{
+/**	@ingroup REF_Library_Foo
+
+	@brief
+	
+	@details
+*/
+public class Foo
+	{
+	// public constants
+	}
+}
+
+@endcode
+
+It is recommended to use only ASCII encoded characters [0x00..0x7f] in source files. This ensures
+interoperability between editors and is compatible to UTF-8.
+
+@subsection SEC_CSG_Braces Braces
+
+@subsubsection SEC_CSG_BracesOptional Braces should be used even if they are optional
+
+Braces are used with <tt>if</tt>, <tt>else</tt>, <tt>for</tt>, <tt>foreach</tt>, <tt>do</tt> and
+<tt>while</tt> statements, even when the body is empty or contains only a single statement.
+
+@subsubsection SEC_CSG_BracesWhitesmith Brace placement in compound statements is Whitesmiths
+
+This style puts the brace associated with a control statement on the next line, indented. Statements
+within the braces are indented to the same level as the braces. <tt>namespace</tt> is the only exception
+where the braces are placed on the next line without indention.
+
+@code{.cs}
+namespace libDev.Foo
+{
+/** @class Bar
+
+    @brief This class does foo.
+
+    @details This class does foobar.
+
+    @ingroup REF_Library
+*/
+public class Bar
+    {
+    ...
+    }
+}
+@endcode
+
+@subsubsection SEC_CSG_BracesEmptyBlock Empty blocks may be concise
+
+@code{.cs}
+if( is_valid ){}
+@endcode
+
+@subsubsection SEC_CSG_BlockIndetation Block indentation is +4 spaces
+
+Each time a new block or block-like construct is opened, the indent increases by four spaces. When the
+block ends, the indent returns to the previous indent level. The indent level applies to both code and
+comments throughout the block.
+
+@subsubsection SEC_CSG_LinesPerBlock One statement per line
+
+Each declaration or statement is followed by a line break.
+
+@section SEC_CSG_Naming Naming rules
+
+All names must be self explaining in order to help other developers understand what the code does. Good
+names reduce the amount of comments required for others to better understand the code.
+
+For all identifiers only the following characters are allowed:
+- small letters a..z (0x61..0x7a)
+- capital letters A..Z (0x41..0x5a)
+- digits 0..9 (0x30..0x39)
+- underscore (0x5f) are allowed.
+
+
+*/

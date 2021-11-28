@@ -1,0 +1,89 @@
+/**
+
+@defgroup SOL_Solution Solution
+@{
+This section relates to the solution. A solution is grouped into libraries,
+executable applications and testing.
+@}
+
+
+<!-- ADDITIONAL_DOCUMENTATION_TEMPLATE
+
+@defgroup REF_AdditionDocumentation Additional documentation
+@{
+This section contains additional documentation related to the solution.
+
+@ingroup SOL_Solution
+@}
+
+//-->
+
+
+
+
+@defgroup REF_Libraries Libraries
+@{
+This section contains the libraries related to this project. For each library project
+a separate group is defined.
+
+@ingroup SOL_Solution
+@}
+
+
+<!-- LIBRARY_DOCUMENTATION_TEMPLATE
+
+@defgroup REF_libXXX libXXX
+@{
+Library project description.
+
+@ingroup REF_Libraries
+@}
+
+//-->
+
+
+
+
+@defgroup REF_Executables Executables
+@{
+This section contains the executables related to this project. For each executable project
+a separate group is defined.
+
+@ingroup SOL_Solution
+@}
+
+
+<!-- EXECUTABLE_DOCUMENTATION_TEMPLATE
+
+@defgroup REF_ExecutableProject ExecutableProject
+@{
+Executable project description.
+
+@ingroup REF_Executables
+@}
+
+//-->
+
+
+
+
+@defgroup REF_Testing Testing
+@{
+This section lists a description of the implemented unit tests. According to the design-by-contract principle,
+the unit tests will not test the internals of a method, but only its external effects (return values, outputs,
+status changes, assurances). If the internal details of the method are checked (this is referred to as white-box
+testing), the test could fail even though the external effects have not changed. Therefore, black box testing is
+usually recommended, which is limited to checking the external impact.
+
+@ingroup SOL_Solution
+@}
+
+
+@defgroup REF_RegressionTests RegressionTests
+@{
+Executable project description.
+
+@ingroup REF_Testing
+@}
+
+*/

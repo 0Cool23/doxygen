@@ -1,0 +1,64 @@
+/**
+
+@page PAGE_CodingStyle CodingStyle
+
+@tableofcontents
+
+@section SEC_CSG_Intro Introduction
+
+Programming style, also known as code style, is a set of rules or guidelines
+used when writing the source code for a computer program. It is often claimed
+that following a particular programming style will help programmers read and
+understand source code conforming to the style, and help to avoid introducing
+errors. This document serves as a definition of coding standards for source
+code in this project.
+
+@section SEC_CSG_Rules Existing coding rules
+
+When working in a project were coding guidelines exist, these rules apply to
+the project and are respected.
+
+@section SEC_CSG_Common Common coding styles
+
+@subsection SEC_CSG_Filenames Filenames
+
+The source file name consists of the lower case file names of the top-level
+class it contains (of which there is exactly one), plus the
+extension. As class names are Camel Case and file names are lower case, the
+underscore (0x5f) character shall be used as word separator.
+
+For example: <tt>class VersionInfo</tt> source file would be
+             <tt>version_info.cs</tt>.
+
+
+@subsection SEC_CSG_Encoding Source file encoding
+
+Source files are encoded in UTF-8.
+
+
+@subsection SEC_CSG_Characters Special characters
+
+@subsubsection SEC_CSG_Whitespaces Whitespace characters
+
+Aside from the line terminator sequence, the ASCII horizontal space character
+(0x20) is the only whitespace character that appears anywhere in a source file.
+This implies that:
+
+- All other whitespace characters in string and character literals are escaped.
+- Tab characters are not used for indentation.
+
+
+@section SEC_CSG_Languages Additional coding rules for other languages
+
+@subpage PAGE_CSG_CSharp @n
+
+<!--
+
+@subpage PAGE_CSG_Cpp @n
+@subpage PAGE_CSG_C @n
+@subpage PAGE_CSG_Python @n
+@subpage PAGE_CSG_Shell @n
+
+//-->
+
+*/

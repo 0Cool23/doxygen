@@ -1,0 +1,59 @@
+/**
+
+@mainpage Solution-Name - Brief solution description text
+
+@subpage PAGE_README_SOLUTION @n
+
+@subpage PAGE_Changelog @n
+
+@subpage PAGE_Licensing @n
+@subpage PAGE_Versioning @n
+@subpage PAGE_CodingStyle @n
+
+@tableofcontents
+
+@section SEC_Introduction Introduction
+
+@section SEC_Install Installing
+
+This solution is written in <tt>C#</tt>. As IDE
+<tt>Visual Studio (Professional) 2022</tt> was used. The solution consists of
+several projects. The actual libraries and executable application. A regression
+test and installer project. This solution has external dependencies and
+requires additional packages. These packages can be downloaded and installed
+using the NuGet-Packet-Manager. The packages required are:
+
+- <tt>MSTest.TestAdapter</tt> (v2.2.3)
+- <tt>MSTest.TestFramework</tt> (v2.2.3)
+- <tt>OpenCover</tt> (v4.7.922)
+- <tt>ReportGenerator</tt> (v4.8.2)
+
+Additional some extensions may help development, but are not required in order
+to compile or continue developing this project.
+
+- <tt>Visual Studio Spell Checker</tt>
+
+The project is documented using Doxygen. In order to refresh the documentation
+open the <tt>Doxyfile</tt> from the solution root directory with
+<tt>doxywizard.exe</tt> click the <tt>Run</tt> tab and hit the
+<tt>Run doxygen</tt> button. On success the results will be available
+in the project directory <tt>\\html\\index.html</tt>.
+
+The tools <tt>Graphviz</tt>, <tt>mscgen</tt> and <tt>dia</tt> should be
+installed on your system so that doxygen can create the graphs. The environment
+variable <tt>PATH</tt> should be extended so that it can be found by Doxygen.
+It is not recommended to modify the <tt>Doxygen</tt> configuration file in the
+project directory. On some environments doxygen will log dot errors. In these
+cases it is recommended to run <tt>dot -c</tt> from a command line prompt
+with administrator privileges.
+
+@subsection SEC_External_Links External Links
+
+- https://visualstudio.microsoft.com/downloads/ (2019, v16.0)
+- https://www.doxygen.nl/download.html (v1.9.1)
+- https://www.graphviz.org/ (v2.44.1)
+- http://www.mcternan.me.uk/mscgen/ (v0.20)
+- http://dia-installer.de/index.html.de (v0.97.2)
+- https://miktex.org/ (v21.2)
+
+*/

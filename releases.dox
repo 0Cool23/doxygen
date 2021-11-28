@@ -1,0 +1,53 @@
+/**
+
+@page PAGE_Changelog Changelog
+
+@section SEC_Changelog Changes
+
+All notable changes to this project will be documented in this file.
+
+<!-- CHANGELOG_TEMPLATE
+Template which should be used for each Unreleased or Release section.
+
+- Added
+    - New feature added to this project.
+
+- Changed
+    - Changes to the existing functionality.
+
+- Deprecated
+    - Features that will be removed in future versions.
+
+- Removed
+    - Deprecated features removed in this version.
+
+- Fixed
+    - List of bug fixes.
+
+- Security
+    - Prompt users to update in case of closed vulnerabilities.
+
+- Known issues
+    - List of known issues.
+
+//-->
+
+@subsection SEC_Unreleased Unreleased
+
+- Added
+
+- Changed
+
+- Deprecated
+
+- Removed
+
+- Fixed
+
+- Security
+
+- Known issues
+
+@subsection SEC_V1_0_0_0 Release 1.0.0.0 (2021-03-31)
+
+*/
