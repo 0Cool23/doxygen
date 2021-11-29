@@ -1,33 +1,24 @@
 /**
 
+@cond DOXYGEN_EXCLUDE
+
 @page PAGE_Licensing License overview
 
 @tableofcontents
 
-<!-- PROJECT_LICENSE_TEMPLATE
-
-@subpage EXECUTABLE_PROJECT_GPL_2_0
-
-@subpage LIBRARY_PROJECT_LGPL_2_1
-
-@subpage TESTING_LGPL_2_1
-
-//-->
-
+@section SEC_APPLICATIONS Applications
+<!-- @subpage EXECUTABLE_PROJECT_GPL_2_0 -->
+@subpage XXX_GPL_2_0
 
 @section SEC_LIBRARIES Libraries
-
-<!-- @subpage LIBXXX_ASL_2_0 //-->
-<!-- @subpage LIBXXX_LGPL_2_1 //-->
-
-
-@section SEC_APPLICATIONS Applications
-
-<!-- @subpage XXX_GPL_2_0 //-->
-
+<!-- @subpage LIBRARY_PROJECT_LGPL_2_1 -->
+@subpage LIBXXX_ASL_2_0
+@subpage LIBXXX_LGPL_2_1
 
 @section SEC_REGRESSION_TESTS Regression Tests
+<!-- @subpage TESTING_LGPL_2_1 -->
+@subpage TESTING_LGPL_2_1
 
-<!-- @subpage TESTING_LGPL_2_1 //-->
+@endcond
 
 */
