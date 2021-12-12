@@ -23,10 +23,10 @@ test and installer project. This solution has external dependencies and
 requires additional packages. These packages can be downloaded and installed
 using the NuGet-Packet-Manager. The packages required are:
 
-- <tt>MSTest.TestAdapter</tt> (v2.2.3)
-- <tt>MSTest.TestFramework</tt> (v2.2.3)
-- <tt>OpenCover</tt> (v4.7.922)
-- <tt>ReportGenerator</tt> (v4.8.2)
+- <tt>MSTest.TestAdapter</tt> (v2.2.8)
+- <tt>MSTest.TestFramework</tt> (v2.2.8)
+- <tt>OpenCover</tt> (v4.7.1221)
+- <tt>ReportGenerator</tt> (v5.0.0)
 
 Additional some extensions may help development, but are not required in order
 to compile or continue developing this project.
@@ -49,7 +49,7 @@ with administrator privileges.
 
 @subsection SEC_External_Links External Links
 
-- https://visualstudio.microsoft.com/downloads/ (2019, v16.0)
+- https://visualstudio.microsoft.com/downloads/ (2022, v16.0)
 - https://www.doxygen.nl/download.html (v1.9.1)
 - https://www.graphviz.org/ (v2.44.1)
 - http://www.mcternan.me.uk/mscgen/ (v0.20)
