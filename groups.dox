@@ -86,4 +86,16 @@ Executable project description.
 @ingroup REF_Testing
 @}
 
+
+<!-- TESTING_DOCUMENTATION_TEMPLATE
+
+@defgroup REF_TestingProject TestingProject
+@{
+Testing project description.
+
+@ingroup REF_Testing
+@}
+
+//-->
+
 */

@@ -1,0 +1,56 @@
+/**
+
+<!-- ADDITIONAL_DOCUMENTATION_TEMPLATE
+
+@defgroup REF_AdditionDocumentation Additional documentation
+@{
+This section contains additional documentation related to the solution.
+
+@ingroup SOL_Solution
+@}
+
+//-->
+
+
+
+
+<!-- LIBRARY_DOCUMENTATION_TEMPLATE
+
+@defgroup REF_libXXX libXXX
+@{
+Library project description.
+
+@ingroup REF_Libraries
+@}
+
+//-->
+
+
+
+
+<!-- EXECUTABLE_DOCUMENTATION_TEMPLATE
+
+@defgroup REF_ExecutableProject ExecutableProject
+@{
+Executable project description.
+
+@ingroup REF_Executables
+@}
+
+//-->
+
+
+
+
+<!-- TESTING_DOCUMENTATION_TEMPLATE
+
+@defgroup REF_TestingProject TestingProject
+@{
+Testing project description.
+
+@ingroup REF_Testing
+@}
+
+//-->
+
+*/
