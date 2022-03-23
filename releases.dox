@@ -2,12 +2,16 @@
 
 @page PAGE_Changelog Changelog
 
+@subpage PAGE_HISTORY @n
+
 @section SEC_Changelog Changes
 
-All notable changes to this project will be documented in this file.
+All notable changes to this solution will be documented in the file
+HISTORY.md. The history file documents Unreleased or Release section.
+The Release section should contain a version number and the release
+date.
 
-<!-- CHANGELOG_TEMPLATE
-Template which should be used for each Unreleased or Release section.
+Each section should point out the following subsections:
 
 - Added
     - New feature added to this project.
@@ -30,24 +34,22 @@ Template which should be used for each Unreleased or Release section.
 - Known issues
     - List of known issues.
 
+<!-- CHANGELOG_TEMPLATE
+
+File content HISTORY.md
+-------------------------------------------------------------------------------
+### Release history {#PAGE_HISTORY}
+
+Solution release history documentation
+
+[TOC]
+
+#### Unreleased changes
+
+#### Released 1.0.0.0 (2022-03-23)
+
+-------------------------------------------------------------------------------
+
 //-->
-
-@subsection SEC_Unreleased Unreleased
-
-- Added
-
-- Changed
-
-- Deprecated
-
-- Removed
-
-- Fixed
-
-- Security
-
-- Known issues
-
-@subsection SEC_V1_0_0_0 Release 1.0.0.0 (2021-03-31)
 
 */
