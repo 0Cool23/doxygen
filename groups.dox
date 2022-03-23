@@ -79,14 +79,6 @@ usually recommended, which is limited to checking the external impact.
 @}
 
 
-@defgroup REF_RegressionTests RegressionTests
-@{
-Executable project description.
-
-@ingroup REF_Testing
-@}
-
-
 <!-- TESTING_DOCUMENTATION_TEMPLATE
 
 @defgroup REF_TestingProject TestingProject
