@@ -26,7 +26,7 @@ using the NuGet-Packet-Manager. The packages required are:
 - <tt>MSTest.TestAdapter</tt> (v2.2.9)
 - <tt>MSTest.TestFramework</tt> (v2.2.9)
 - <tt>OpenCover</tt> (v4.7.1221)
-- <tt>ReportGenerator</tt> (v5.1.3)
+- <tt>ReportGenerator</tt> (v5.1.4)
 
 Additional some extensions may help development, but are not required in order
 to compile or continue developing this project.
